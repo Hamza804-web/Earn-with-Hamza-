@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Earn With Hamza shares practical guides, digital skills, technology tips and beginner-friendly online earning information.">
+  <title>Earn With Hamza | Learn. Build. Grow.</title>
+  <style>
+    :root{--navy:#10243a;--blue:#1769aa;--green:#16a36a;--ink:#182536;--muted:#667789;--bg:#f4f8fb;--white:#fff;--line:#e5edf3}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+    header{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+    .nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-size:21px;font-weight:800;color:var(--navy);letter-spacing:-.5px}.brand span{color:var(--green)}
+    nav{display:flex;gap:22px;align-items:center;font-size:14px;font-weight:700;color:#435468}
+    nav a:hover{color:var(--green)}.menu{display:none;border:0;background:none;font-size:25px}
+    .hero{background:linear-gradient(125deg,#10243a 0%,#145b91 65%,#168b70 100%);color:white;padding:76px 0 70px}
+    .hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:35px;align-items:center}
+    .eyebrow{display:inline-block;background:#ffffff20;border:1px solid #ffffff35;border-radius:30px;padding:6px 13px;font-size:12px;font-weight:700;letter-spacing:.5px}
+    h1{font-size:clamp(38px,6vw,62px);line-height:1.08;margin:18px 0 16px;letter-spacing:-1.8px}
+    .hero p{max-width:590px;color:#e2eef7;font-size:17px;margin:0 0 26px}
+    .btn{display:inline-block;background:var(--green);color:white;padding:12px 20px;border-radius:8px;font-weight:700}
+    .btn:hover{filter:brightness(1.07)}.hero-card{background:#ffffff14;border:1px solid #ffffff35;border-radius:18px;padding:25px}
+    .hero-card .big{font-size:42px}.hero-card h3{margin:5px 0}.hero-card p{font-size:14px;margin:0;color:#e2eef7}
+    section{padding:54px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}
+    h2{font-size:29px;line-height:1.2;margin:0;color:var(--navy)}.sub{color:var(--muted);margin:7px 0 0}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}
+    .card{background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 5px 18px #10243a08}
+    .card-top{height:125px;display:flex;align-items:center;justify-content:center;font-size:42px;background:linear-gradient(135deg,#e3f2ff,#e4f8ef)}
+    .card-body{padding:19px}.tag{font-size:11px;font-weight:800;color:var(--green);text-transform:uppercase;letter-spacing:.7px}
+    .card h3{margin:7px 0;font-size:18px;line-height:1.35;color:var(--navy)}.card p{font-size:14px;color:var(--muted);margin:0 0 13px}
+    .read{font-size:13px;color:var(--blue);font-weight:800}.read:hover{text-decoration:underline}
+    .about{background:white}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+    .about-panel{background:#edf7f3;border-radius:16px;padding:28px}.about-panel strong{color:var(--green)}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:22px}
+    .step{background:var(--bg);padding:18px;border-radius:12px}.step b{display:block;color:var(--green);font-size:22px}
+    .contact-box{background:var(--navy);color:white;border-radius:16px;padding:30px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+    .contact-box h2{color:white}.contact-box p{color:#d6e2ec;margin-bottom:0}
+    footer{background:#0b1a2a;color:#c8d5e0;padding:27px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .notice{font-size:12px;color:var(--muted);margin-top:18px}
+    @media(max-width:760px){.menu{display:block}nav{display:none;position:absolute;left:0;right:0;top:70px;background:white;padding:18px 4%;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:15px}nav.open{display:flex}.hero{padding:55px 0}.hero-grid,.about-grid{grid-template-columns:1fr}.hero-card{max-width:420px}.grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.contact-box{align-items:flex-start;flex-direction:column}}
+    @media(max-width:480px){.grid{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}h2{font-size:25px}.hero p{font-size:15px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home">Earn <span>With Hamza</span></a>
+    <button class="menu" aria-label="Open menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+    <nav>
+      <a href="#home">Home</a><a href="#articles">Articles</a><a href="#skills">Digital Skills</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">LEARN • BUILD • GROW</span>
+        <h1>Build your skills.<br>Grow your future.</h1>
+        <p>Welcome to Earn With Hamza — simple guides about digital skills, useful technology and responsible ways to explore opportunities online.</p>
+        <a class="btn" href="#articles">Explore latest guides</a>
+      </div>
+      <div class="hero-card">
+        <div class="big">🚀</div>
+        <h3>Start with knowledge</h3>
+        <p>Practical beginner-friendly information. No guaranteed-income claims, no shortcuts — just useful learning.</p>
+      </div>
+    </div>
+  </section>
+  <section id="articles">
+    <div class="wrap">
+      <div class="section-head"><div><h2>Latest guides</h2><p class="sub">Helpful starting points for your digital journey.</p></div></div>
+      <div class="grid">
+        <article class="card"><div class="card-top">💻</div><div class="card-body"><span class="tag">Getting started</span><h3>How to start learning digital skills</h3><p>Explore beginner-friendly skills such as writing, design and basic website building.</p><a class="read" href="#skills">Read guide →</a></div></article>
+        <article class="card"><div class="card-top">🛡️</div><div class="card-body"><span class="tag">Online safety</span><h3>How to spot online earning scams</h3><p>Learn warning signs, protect your information and avoid paying for unrealistic promises.</p><a class="read" href="#safety">Read guide →</a></div></article>
+        <article class="card"><div class="card-top">📱</div><div class="card-body"><span class="tag">Technology</span><h3>Useful free tools for beginners</h3><p>A simple introduction to tools that can help you study, create and organize your work.</p><a class="read" href="#tools">Read guide →</a></div></article>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="about">
+    <div class="wrap about-grid">
+      <div><h2>Learn skills that create opportunities</h2><p class="sub">Online work usually takes practice, time and consistency. Choose one skill, learn the basics and build a few sample projects before looking for clients.</p>
+        <div class="steps"><div class="step"><b>01</b>Choose a skill</div><div class="step"><b>02</b>Practice regularly</div><div class="step"><b>03</b>Build a portfolio</div></div>
+      </div>
+      <div class="about-panel"><h3>Beginner skill ideas</h3><p>✍️ Content writing</p><p>🎨 Graphic design</p><p>🎬 Video editing</p><p>🌐 Website basics</p><p>📊 Spreadsheet skills</p><p><strong>Tip:</strong> Start with free learning resources and never trust guaranteed-profit claims.</p></div>
+    </div>
+  </section>
+  <section id="safety">
+    <div class="wrap">
+      <div class="section-head"><div><h2>Stay safe online</h2><p class="sub">A few important checks before joining an online earning platform.</p></div></div>
+      <div class="grid">
+        <div class="card"><div class="card-body"><span class="tag">Check first</span><h3>Be careful with deposits</h3><p>Be suspicious of platforms that require payment to unlock a job or promise fixed, unusually high returns.</p></div></div>
+        <div class="card" id="tools"><div class="card-body"><span class="tag">Protect yourself</span><h3>Keep personal details private</h3><p>Never share passwords, one-time codes or banking PINs with strangers or unknown websites.</p></div></div>
+        <div class="card"><div class="card-body"><span class="tag">Verify</span><h3>Check the source</h3><p>Look for clear company details, independent reviews and understandable terms before using a service.</p></div></div>
+      </div>
+      <p class="notice">Note: This website shares educational information only. It does not promise earnings or provide financial advice.</p>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="wrap about-grid">
+      <div><h2>About Earn With Hamza</h2><p class="sub">Earn With Hamza is a learning-focused website for people who want to understand digital skills, technology and online opportunities. Our goal is to make information simple, practical and safer for beginners.</p></div>
+      <div class="about-panel"><h3>Our promise</h3><p>Clear explanations, realistic expectations and a focus on learning. We do not guarantee income or ask visitors to deposit money.</p></div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="wrap contact-box"><div><h2>Have a question?</h2><p>For feedback or suggestions, contact the website owner.</p></div><a class="btn" href="mailto:hello@earnwithhamza.example">Email us</a></div>
+  </section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 Earn With Hamza. All rights reserved.</span><span><a href="#about">About</a> &nbsp; · &nbsp; <a href="#contact">Contact</a> &nbsp; · &nbsp; <a href="#home">Back to top ↑</a></span></div></footer>
+<script>
+  document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.querySelector('nav').classList.remove('open')));
+</script>
+</body>
+</html>
